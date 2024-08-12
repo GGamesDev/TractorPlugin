@@ -1,0 +1,20 @@
+name: Tractor
+version: 2.5.4
+main: be.openmc.ggames.Main
+api-version: 1.20
+commands:
+  fuel:
+    usage: /fuel [litres]
+    description: Donne un jerrycan 
+  givetractor:
+    usage: /givetractor [joueur> <uuid>
+    description: Donne le tracteur de ton choix à une personne
+  mode:
+    usage: /mode <private/public>
+    description: Rends le tracteur dans ta main privé ou publique
+  refill:
+    usage: /refill
+    description: Remplir d'essence le tracteur de ta main
+  setowner:
+    usage: /setowner <joueur>
+    description: Définis le propriétaire du tracteur de ta main
